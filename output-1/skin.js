@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.9/20995
 // Filename: venis1.ggsk
-// Generated 2025-06-04T14:51:28
+// Generated 2025-06-04T15:24:45
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -13787,17 +13787,17 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="closee";
-		el.ggDx=539;
-		el.ggDy=-306;
+		el.ggDx=11;
+		el.ggDy=355;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
 		hs+='height : 50px;';
-		hs+='left : calc(50% - ((50px + 0px) / 2) + 539px);';
+		hs+='left : calc(50% - ((50px + 0px) / 2) + 11px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((50px + 0px) / 2) - 306px);';
+		hs+='top : calc(50% - ((50px + 0px) / 2) + 355px);';
 		hs+='visibility : inherit;';
 		hs+='width : 50px;';
 		hs+='pointer-events:auto;';
@@ -21006,10 +21006,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_1 = setInterval(() => {
+				let pdfInterval_3 = setInterval(() => {
 					if (skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_hs_popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_1);
+						clearInterval(pdfInterval_3);
 					}
 				}, 50);
 			}
@@ -21134,10 +21134,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_2 = setInterval(() => {
+				let pdfInterval_4 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_2);
+						clearInterval(pdfInterval_4);
 					}
 				}, 50);
 			}
