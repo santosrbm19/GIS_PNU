@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.9/20995
 // Filename: 
-// Generated 2025-06-04T17:50:10
+// Generated 2025-06-04T18:00:55
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -12995,15 +12995,15 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Desktop_View";
-		el.ggDx=243;
+		el.ggDx=-246;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
-		hs+='bottom : -71px;';
+		hs+='bottom : -89px;';
 		hs+='height : 406px;';
-		hs+='left : calc(50% - ((406px + 0px) / 2) + 243px);';
+		hs+='left : calc(50% - ((406px + 0px) / 2) - 246px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 406px;';
@@ -13057,15 +13057,15 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Mobile_View";
-		el.ggDx=243;
+		el.ggDx=-246;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='bottom : -451px;';
+		hs+='bottom : -469px;';
 		hs+='height : 406px;';
-		hs+='left : calc(50% - ((406px + 0px) / 2) + 243px);';
+		hs+='left : calc(50% - ((406px + 0px) / 2) - 246px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 406px;';
@@ -13141,9 +13141,9 @@ alert("The current view has been copied.");
 		el.ggType='image';
 		hs ='';
 		hs+='height : 766px;';
-		hs+='left : 120px;';
+		hs+='left : -350px;';
 		hs+='position : absolute;';
-		hs+='top : -111px;';
+		hs+='top : -117px;';
 		hs+='visibility : hidden;';
 		hs+='width : 468px;';
 		hs+='pointer-events:auto;';
@@ -13185,9 +13185,9 @@ alert("The current view has been copied.");
 		el.ggType='image';
 		hs ='';
 		hs+='height : 766px;';
-		hs+='left : 120px;';
+		hs+='left : -350px;';
 		hs+='position : absolute;';
-		hs+='top : -111px;';
+		hs+='top : -117px;';
 		hs+='visibility : inherit;';
 		hs+='width : 468px;';
 		hs+='pointer-events:auto;';
@@ -13223,8 +13223,8 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="mobile_right";
-		el.ggDx=138;
-		el.ggDy=-72;
+		el.ggDx=-332;
+		el.ggDy=-78;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_button ";
@@ -13232,9 +13232,9 @@ alert("The current view has been copied.");
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 70px;';
-		hs+='left : calc(50% - ((70px + 0px) / 2) + 138px);';
+		hs+='left : calc(50% - ((70px + 0px) / 2) - 332px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((70px + 0px) / 2) - 72px);';
+		hs+='top : calc(50% - ((70px + 0px) / 2) - 78px);';
 		hs+='visibility : inherit;';
 		hs+='width : 70px;';
 		hs+='pointer-events:auto;';
@@ -13287,8 +13287,8 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="mobile_left";
-		el.ggDx=-271;
-		el.ggDy=-74;
+		el.ggDx=-741;
+		el.ggDy=-80;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_button ";
@@ -13296,9 +13296,9 @@ alert("The current view has been copied.");
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 70px;';
-		hs+='left : calc(50% - ((70px + 0px) / 2) - 271px);';
+		hs+='left : calc(50% - ((70px + 0px) / 2) - 741px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((70px + 0px) / 2) - 74px);';
+		hs+='top : calc(50% - ((70px + 0px) / 2) - 80px);';
 		hs+='visibility : hidden;';
 		hs+='width : 70px;';
 		hs+='pointer-events:auto;';
@@ -13348,8 +13348,8 @@ alert("The current view has been copied.");
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="mobile_close";
-		el.ggDx=106;
-		el.ggDy=-403;
+		el.ggDx=-364;
+		el.ggDy=-409;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_button ";
@@ -13357,9 +13357,9 @@ alert("The current view has been copied.");
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 70px;';
-		hs+='left : calc(50% - ((70px + 0px) / 2) + 106px);';
+		hs+='left : calc(50% - ((70px + 0px) / 2) - 364px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((70px + 0px) / 2) - 403px);';
+		hs+='top : calc(50% - ((70px + 0px) / 2) - 409px);';
 		hs+='visibility : inherit;';
 		hs+='width : 70px;';
 		hs+='pointer-events:auto;';
@@ -20397,10 +20397,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_59 = setInterval(() => {
+				let pdfInterval_65 = setInterval(() => {
 					if (skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_hs_popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_59);
+						clearInterval(pdfInterval_65);
 					}
 				}, 50);
 			}
@@ -20525,10 +20525,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_60 = setInterval(() => {
+				let pdfInterval_66 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_60);
+						clearInterval(pdfInterval_66);
 					}
 				}, 50);
 			}
