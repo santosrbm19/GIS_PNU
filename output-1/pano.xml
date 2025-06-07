@@ -1379,6 +1379,7 @@
       <hotspot tilt="-7.65" url="{node75}" target="$fwd" description="" title="Taft Wing Hallway" id="Point02" skinid="ht_node" pan="59.5868"/>
       <hotspot tilt="-10.36" url="{node28}" target="$fwd" description="" title="Taft Parking 3" id="Point03" skinid="ht_node" pan="-30.5691"/>
       <hotspot tilt="-2.75" url="{node94}" target="" description="" title="Taft Wing 2nd Floor Hallway" id="Point04" skinid="ht_node" pan="-350.79"/>
+      <hotspot tilt="-16.23" url="{node130}" target="" description="" title="Right Side of Quadrangle" id="Point05" skinid="ht_node" pan="-199.46"/>
     </hotspots>
     <media/>
     <transition zoomin="7" zoomout="0" enabled="1" softedge="0" zoomafteroutfov="40" delay="none" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" type="mesh" zoomfov="40" zoomspeed="2"/>
@@ -2360,6 +2361,7 @@
       <hotspot tilt="-2.17" url="{node128}" target="$fwd" description="" title="Left Side of Quadrangle" id="Point03" skinid="ht_node" pan="-53.0854"/>
       <hotspot tilt="-3.08" url="{node155}" target="$fwd" description="" title="Towards Under the Mango Tree (UTMT)" id="Point04" skinid="ht_node" pan="42.4443"/>
       <hotspot tilt="0" url="{node142}" target="$fwd" description="" title="Orata Walk" id="Point05" skinid="ht_node" pan="74.2663"/>
+      <hotspot tilt="-13.78" url="{node77}" target="" description="" title="Taft Wing Hallway" id="Point06" skinid="ht_node" pan="-208.76"/>
     </hotspots>
     <media/>
     <transition zoomin="7" zoomout="0" enabled="1" softedge="0" zoomafteroutfov="40" delay="none" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" type="mesh" zoomfov="40" zoomspeed="2"/>
@@ -2931,6 +2933,7 @@
       <polystyle backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
       <hotspot tilt="0" url="{node142}" target="$fwd" description="" title="Orata Walk" id="Point01" skinid="ht_node" pan="3.79749"/>
       <hotspot tilt="0" url="{node130}" target="$fwd" description="" title="Right Side of Quadrangle" id="Point02" skinid="ht_node" pan="96.6363"/>
+      <hotspot tilt="-2.27" url="{node130}" target="" description="" title="Right Side of Quadrangle" id="Point03" skinid="ht_node" pan="-128.74"/>
     </hotspots>
     <media/>
     <transition zoomin="7" zoomout="0" enabled="1" softedge="0" zoomafteroutfov="40" delay="none" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" type="mesh" zoomfov="40" zoomspeed="2"/>
