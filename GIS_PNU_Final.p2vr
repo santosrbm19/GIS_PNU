@@ -12610,7 +12610,7 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>228.512</pan>
+            <pan>228.51</pan>
             <tilt>-8.99</tilt>
             <fov>10</fov>
           </position>
@@ -12625,7 +12625,7 @@
           <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node146}</url>
+          <url>{node150}</url>
           <target>$fwd</target>
           <type>point</type>
           <distance>0</distance>
